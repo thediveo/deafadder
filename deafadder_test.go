@@ -28,8 +28,6 @@ import (
 	. "github.com/thediveo/success"
 )
 
-type fool bool
-
 var _ = Describe("retrieving values of all types", func() {
 
 	var d *DeafAdder
